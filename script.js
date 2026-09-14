@@ -1,5 +1,5 @@
 const header = document.querySelector('[data-header]');
-const hero = document.querySelector('.hero');
+const hero = document.querySelector('.hero, .page-hero, .contact-page-hero');
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.main-nav');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
